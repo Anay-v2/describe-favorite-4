@@ -1,0 +1,36 @@
+body {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(255, 0, 0, 1) 67%);
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transition: transform .2s;
+    border:10px solid #AAAAAA;
+}
+
+.tab {
+    background-color: aquamarine;
+}
+
+.link:hover {
+    background-color: aqua;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: mediumaquamarine;
+}
+image:hover {
+    transform: scale(0.9)
+}
